@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/hero.css";
 import image from "../assets/images/hero.jpg";
+import { NavLink } from "react-router-dom";
 
 function Hero(props) {
   return (
@@ -14,7 +15,9 @@ function Hero(props) {
             facere expedita qui eveniet repellat exercitationem fuga laborum eos
             commodi. Lorem ipsum dolor sit amet.
           </p>
-          <button className="btn">Shop Now</button>
+          <NavLink to="/ZenStore/products">
+            <button className="btn">Shop Now</button>
+          </NavLink>
         </div>
         <div className="hero-right">
           <img src={image} alt="hero" />

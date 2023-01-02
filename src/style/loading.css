@@ -1,0 +1,7 @@
+@import url(app.css);
+
+.loading {
+  margin: 4rem;
+  font-size: 2rem;
+  text-align: center;
+}

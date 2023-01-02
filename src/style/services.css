@@ -1,0 +1,49 @@
+@import url(app.css);
+
+.services-section {
+  margin: 8rem auto;
+}
+
+.superfast,
+.superfast-center div {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgb(244, 245, 255);
+  width: 100%;
+}
+
+.superfast {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.superfast-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.superfast-center div {
+  gap: 1rem;
+}
+
+.superfast .icon,
+.superfast-center .icon {
+  color: rgb(81, 0, 255);
+  font-size: 4rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+@media (max-width: 800px) {
+  .grid-three {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 2rem !important;
+  }
+}

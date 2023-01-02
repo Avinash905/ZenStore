@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand&family=Roboto&family=Roboto+Condensed&family=Ubuntu&display=swap");
+
+:root {
+  --blue: #5271ff;
+  --white: white;
+  --black: black;
+  --font-family: "Quicksand", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-two {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+}
+
+.grid-three {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.grid-four {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+}
+
+.grid-five {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.btn,
+.clear-btn {
+  color: var(--white);
+  padding: 0.5rem 1.1rem;
+  transition: all 0.2s linear;
+  border: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: var(--blue);
+}
+
+.clear-btn {
+  background-color: rgb(255, 72, 0);
+}
+
+.btn:hover,
+.btn:active,
+.clear-btn:hover,
+.clear-btn:active {
+  transform: scale(0.93);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 90%;
+    text-align: center;
+  }
+  .grid-two {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 4rem !important;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+}

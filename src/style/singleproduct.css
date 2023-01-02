@@ -1,0 +1,99 @@
+@import url(app.css);
+
+.go-back {
+  font-size: 1.5rem;
+  margin: 1rem 2rem;
+}
+
+.product-home {
+  color: var(--blue);
+}
+
+.single-prod-right {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.single-prod-right h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.mrp {
+  font-weight: 600;
+}
+
+.dealofday {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.options {
+  margin: 1rem auto;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.product-warranty-data {
+  margin: 0.5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.warranty-icon {
+  font-size: 2.5rem;
+  background-color: rgb(227, 227, 227);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.product-warranty-data p {
+  text-align: center;
+}
+
+.single-prod-right p > span {
+  font-weight: 600;
+}
+
+.single-prod-right .brand {
+  text-transform: capitalize;
+}
+
+.star {
+  color: rgb(255, 183, 0);
+}
+
+.addtocart {
+  width: 40%;
+}
+
+.incdec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+
+.incdec button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.incdec div {
+  color: var(--blue);
+  font-size: 1.5rem;
+}
+
+.filterside-input {
+  margin: 2rem;
+}

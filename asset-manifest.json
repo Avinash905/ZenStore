@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ZenStore/static/css/main.b554a09f.css",
-    "main.js": "/ZenStore/static/js/main.9b7d9514.js",
+    "main.js": "/ZenStore/static/js/main.22917420.js",
     "static/js/787.cd58203f.chunk.js": "/ZenStore/static/js/787.cd58203f.chunk.js",
     "static/media/hero.jpg": "/ZenStore/static/media/hero.b586ec90be71b6bea8cf.jpg",
     "index.html": "/ZenStore/index.html",
     "main.b554a09f.css.map": "/ZenStore/static/css/main.b554a09f.css.map",
-    "main.9b7d9514.js.map": "/ZenStore/static/js/main.9b7d9514.js.map",
+    "main.22917420.js.map": "/ZenStore/static/js/main.22917420.js.map",
     "787.cd58203f.chunk.js.map": "/ZenStore/static/js/787.cd58203f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b554a09f.css",
-    "static/js/main.9b7d9514.js"
+    "static/js/main.22917420.js"
   ]
 }

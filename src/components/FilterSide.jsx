@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useFilterContext } from "../context/filterContext";
 import { TiTick } from "react-icons/ti";
 import PriceFormat from "./PriceFormat";

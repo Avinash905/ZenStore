@@ -16,6 +16,7 @@ const Contact = () => {
         loading="lazy"
         className="map"
         referrerPolicy="no-referrer-when-downgrade"
+        title="map"
       ></iframe>
       <div className="form">
         <form action="https://formspree.io/f/xkneldwn" method="POST">

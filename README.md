@@ -1,4 +1,4 @@
-# 🛒Shopping Cart🛍️
+# 🛒ZenStore🛍️
 
 <h3>Description :</h3> 
 This is an dummy E-commerce website where you can buy products.

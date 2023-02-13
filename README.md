@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # ZenStore🛍️
+=======
+# 🛒ZenStore🛍️
+>>>>>>> 9a275530b9698bbf451dcdedc3691470a4eb5ad6
 
 <h3>Description :</h3> 
 This is an online E-commerce website where you can purchase products.

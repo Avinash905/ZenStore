@@ -1,0 +1,72 @@
+@import url(app.css);
+
+.register-section {
+  width: 100%;
+  height: 90vh;
+}
+
+.register-container {
+  flex-direction: column;
+  gap: 2rem;
+  width: 20%;
+}
+
+.form-heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.register-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-btn {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.login-link {
+  color: var(--blue);
+}
+
+@media (max-width: 1184px) {
+  .register-container {
+    width: 30%;
+  }
+  .form-btn {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1120px) {
+  .register-container {
+    width: 35%;
+  }
+}
+
+@media (max-width: 746px) {
+  .register-container {
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .register-container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 408px) {
+  .register-container {
+    width: 70%;
+  }
+}

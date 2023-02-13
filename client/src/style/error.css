@@ -1,0 +1,9 @@
+@import url(app.css);
+
+.error-text {
+  text-align: center;
+  margin: 6rem auto;
+  font-size: 4rem;
+  color: #bfbfbf;
+  font-weight: 600;
+}

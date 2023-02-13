@@ -1,0 +1,5 @@
+@import url(app.css);
+
+.dashboard-container {
+  display: flex;
+}

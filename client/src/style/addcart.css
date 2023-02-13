@@ -1,0 +1,20 @@
+@import url(app.css);
+
+.color-cont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cartColor {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid var(--gray);
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+
+.active-tick {
+  color: var(--white);
+}

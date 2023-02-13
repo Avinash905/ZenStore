@@ -1,0 +1,41 @@
+@import url(app.css);
+
+.create-item-container {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.new-user-container {
+  flex-direction: column;
+  gap: 2rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.form-same-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.form-same-row input,
+select {
+  width: 100%;
+}
+
+@media (max-width: 910px) {
+  .new-user-container {
+    width: 55%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .new-user-container {
+    width: 55%;
+    margin: 0 auto;
+  }
+  .form-same-row {
+    flex-direction: column;
+  }
+}

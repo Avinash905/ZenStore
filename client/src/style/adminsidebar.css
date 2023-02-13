@@ -1,0 +1,71 @@
+@import url(app.css);
+
+.dashboard-sidebar {
+  width: 13vw;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: 1px solid gainsboro;
+  padding: 1.5rem;
+}
+
+.sidebar-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.sidebar-main-container > h4 {
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+.sidebar-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sidebar-main a,
+.sidebar-main p {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-main svg {
+  color: var(--blue);
+  font-size: 1.2rem;
+}
+
+.sidebar-main span {
+  color: var(--gray);
+  text-transform: capitalize;
+}
+
+@media (max-width: 910px) {
+  .dashboard-sidebar {
+    width: 18vw;
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 590px) {
+  .dashboard-sidebar {
+    width: 22vw;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .dashboard-sidebar {
+    width: 28vw;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+}

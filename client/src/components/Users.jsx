@@ -13,14 +13,14 @@ const Users = () => {
   const { id } = jwtDecode(localStorage.getItem("token"));
 
   const fetch = async () => {
+    setLoading(true);
     const data = await fetchData(`/user/getallusers/${id}`);
     setUsers(data);
+    setLoading(false);
   };
 
   useEffect(() => {
-    setLoading(true);
     fetch();
-    setLoading(false);
   }, [isLoading]);
 
   const removeBtn = async (userid) => {

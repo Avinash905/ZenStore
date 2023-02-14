@@ -20,14 +20,12 @@ const ListView = (props) => {
         <p className="list-card-desc">
           {props.prod.description.slice(0, 100)}...
         </p>
-        <button className="btn">
-          <NavLink
-            to={`/product/${props.prod._id}`}
-            className="read-more-btn"
-          >
-            Read More
-          </NavLink>
-        </button>
+        <NavLink
+          to={`/product/${props.prod._id}`}
+          className="btn read-more-btn"
+        >
+          Read More
+        </NavLink>
       </div>
     </div>
   );

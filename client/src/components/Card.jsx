@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../style/card.css";
 import PriceFormat from "./PriceFormat";
 
-const SingleProduct = ({ prod }) => {
+const Card = ({ prod }) => {
   return (
     <NavLink to={`/product/${prod._id}`}>
       <div className="card">
@@ -27,4 +27,4 @@ const SingleProduct = ({ prod }) => {
   );
 };
 
-export default SingleProduct;
+export default Card;

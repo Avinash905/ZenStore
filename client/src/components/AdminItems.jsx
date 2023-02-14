@@ -13,14 +13,14 @@ const AdminItems = () => {
   const id = jwtDecode(localStorage.getItem("token")).id;
 
   const fetch = async () => {
+    setLoading(true);
     const data = await fetchData(`/item/getitems`);
     setItems(data);
+    setLoading(false);
   };
 
   useEffect(() => {
-    setLoading(true);
     fetch();
-    setLoading(false);
   }, [isLoading]);
 
   const removeBtn = async (itemid) => {

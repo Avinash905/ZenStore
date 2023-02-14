@@ -34,4 +34,5 @@
 
 .read-more-btn {
   color: var(--white);
+  width: max-content;
 }

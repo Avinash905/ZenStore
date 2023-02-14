@@ -13,7 +13,9 @@ axios.defaults.baseURL = process.env.REACT_APP_SERVER_DOMAIN;
 
 const AddCart = ({ prod }) => {
   const navigate = useNavigate();
-  const { id } = jwtDecode(localStorage.getItem("token"));
+  const id = localStorage.getItem("token")
+    ? jwtDecode(localStorage.getItem("token")).id
+    : null;
   const { colors, stock, _id } = prod;
   const [activeColor, setActiveColor] = useState(colors[0]);
   const [amount, setAmount] = useState(1);

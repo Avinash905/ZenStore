@@ -1,6 +1,6 @@
 {
   "name": "zenstore",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "<h3>Description :</h3>  This is an online E-commerce website where you can buy products.",
   "main": "index.js",
   "scripts": {

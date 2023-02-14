@@ -20,6 +20,7 @@ const Cart = () => {
   const { isLoading, setLoading } = useProductContext();
 
   const getCartItems = async () => {
+    setLoading(true);
     const data = await fetchData(`/cart/getcartitems/${id}`);
     let totPrice = 0;
     for (let index = 0; index < data.length; index++) {
@@ -27,13 +28,14 @@ const Cart = () => {
     }
     setTotal(totPrice);
     setCart(data);
+    setLoading(false);
   };
 
   useEffect(() => {
-    setLoading(true);
     getCartItems();
-    setLoading(false);
   }, [total_items]);
+
+  if (isLoading) return <Loading />;
 
   if (cart.length < 1) {
     return (
@@ -45,9 +47,7 @@ const Cart = () => {
     );
   }
 
-  return isLoading ? (
-    <Loading />
-  ) : (
+  return (
     <section className="cart-section">
       <div className="container cart-cont">
         <div className="cart-user-profile">

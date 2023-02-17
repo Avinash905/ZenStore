@@ -5,6 +5,7 @@ require("./db/conn");
 const userRouter = require("./routes/userRoutes");
 const itemRouter = require("./routes/itemRoutes");
 const cartRouter = require("./routes/cartRoutes");
+const paymentRouter = require("./routes/paymentRoutes");
 const path = require("path");
 
 const app = express();
@@ -15,6 +16,7 @@ app.use(express.json());
 app.use("/api/user", userRouter);
 app.use("/api/item", itemRouter);
 app.use("/api/cart", cartRouter);
+app.use("/api/payment", paymentRouter);
 app.use(express.static(path.join(__dirname, "./client/build")));
 
 app.get("*", (req, res) => {

@@ -2,7 +2,7 @@
   "name": "zenstore",
   "version": "0.1.0",
   "proxy": "https://zenstore.onrender.com/api",
-  "homepage": "https://zenstore.onrender.com/",
+  "homepage": "https://zenstore.onrender.com",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^1.12.0",

@@ -2,9 +2,9 @@ const Cart = require("../models/cartModel");
 
 const getcartitems = async (req, res, next) => {
   try {
-    const cart = await Cart.find({ userId: req.params.id }).populate(
-      "productId"
-    );
+    const cart = await Cart.find({ userId: req.params.id })
+      .populate("productId")
+      .populate("userId", "-password");
     return res.send(cart);
   } catch (error) {
     next(error);
@@ -16,6 +16,7 @@ const createcartitem = async (req, res, next) => {
     const found = await Cart.findOne({
       productId: req.body.productId,
       color: req.body.color,
+      paid: false,
     });
     if (found) {
       const result = await Cart.findByIdAndUpdate(found._id, {

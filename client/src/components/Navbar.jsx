@@ -26,7 +26,9 @@ const Navbar = () => {
     const data = await fetchData(`/cart/getcartitems/${id}`);
     let items = 0;
     for (let index = 0; index < data.length; index++) {
-      items += data[index].count;
+      if (!data[index].paid) {
+        items += data[index].count;
+      }
     }
     setCartCount(items);
   };
@@ -81,7 +83,16 @@ const Navbar = () => {
               Contact
             </NavLink>
           </li>
-          {/* {id && <h4>{user.name}</h4>} */}
+          <li key="myitems">
+            <NavLink
+              to="/myitems"
+              onClick={() => {
+                setIconActive(false);
+              }}
+            >
+              My Items
+            </NavLink>
+          </li>
           {token ? (
             <li key="logout">
               <button

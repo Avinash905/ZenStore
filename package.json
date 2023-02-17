@@ -1,6 +1,6 @@
 {
   "name": "zenstore",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "<h3>Description :</h3>  This is an online E-commerce website where you can buy products.",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^6.9.1"
+    "mongoose": "^6.9.1",
+    "razorpay": "^2.8.4"
   }
 }

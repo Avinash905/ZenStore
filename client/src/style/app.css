@@ -61,6 +61,10 @@ a {
   grid-template-columns: repeat(5, 1fr);
 }
 
+.grid-six {
+  grid-template-columns: repeat(6, 1fr);
+}
+
 .btn,
 .clear-btn {
   color: var(--white);

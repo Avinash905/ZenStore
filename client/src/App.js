@@ -19,6 +19,8 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import { Toaster } from "react-hot-toast";
 import jwtDecode from "jwt-decode";
+import PaymentSuccess from "./components/PaymentSuccess";
+import MyItems from "./components/MyItems";
 
 function App() {
   const isAdmin = localStorage.getItem("token")
@@ -97,6 +99,22 @@ function App() {
           element={
             <Protected>
               <Cart />
+            </Protected>
+          }
+        />
+        <Route
+          path="/myitems"
+          element={
+            <Protected>
+              <MyItems />
+            </Protected>
+          }
+        />
+        <Route
+          path="/paymentsuccess"
+          element={
+            <Protected>
+              <PaymentSuccess />
             </Protected>
           }
         />

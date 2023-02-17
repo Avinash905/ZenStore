@@ -7,7 +7,6 @@ import axios from "axios";
 import jwtDecode from "jwt-decode";
 import toast from "react-hot-toast";
 import { useCartContext } from "../context/cartContext";
-// import { useCartContext } from "../context/cartContext";
 
 axios.defaults.baseURL = process.env.REACT_APP_SERVER_DOMAIN;
 

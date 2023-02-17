@@ -1,0 +1,18 @@
+@import url(app.css);
+
+.payment {
+  flex-direction: column;
+  margin: auto;
+  height: 50vh;
+  gap: 1rem;
+}
+
+.payment h2 {
+  font-size: 4rem;
+}
+
+.payment span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray);
+}

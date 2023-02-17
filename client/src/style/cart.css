@@ -62,6 +62,7 @@ hr {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  gap: 0.3rem;
 }
 
 .cart-name-color img {
@@ -85,4 +86,8 @@ hr {
 .trash {
   color: rgb(255, 47, 0);
   cursor: pointer;
+}
+
+.paybtn {
+  margin-top: 1rem;
 }

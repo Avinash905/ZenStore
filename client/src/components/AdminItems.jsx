@@ -21,7 +21,7 @@ const AdminItems = () => {
 
   useEffect(() => {
     fetch();
-  }, [isLoading]);
+  }, []);
 
   const removeBtn = async (itemid) => {
     try {

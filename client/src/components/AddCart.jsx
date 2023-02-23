@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../style/addcart.css";
 import { TiTick } from "react-icons/ti";
 import Amount from "./Amount.jsx";
-import { useNavigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import axios from "axios";
 import jwtDecode from "jwt-decode";
 import toast from "react-hot-toast";
@@ -30,6 +30,8 @@ const AddCart = ({ prod }) => {
 
   const addToCart = async (productId, color, count) => {
     try {
+      if (!id) return toast.error("You need to login first");
+
       const { data } = await toast.promise(
         axios.post(
           `/cart/createcartitem/${id}`,

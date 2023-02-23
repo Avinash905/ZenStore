@@ -48,6 +48,7 @@ nav {
 .menu-close {
   position: absolute;
   color: var(--black);
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {

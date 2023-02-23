@@ -21,7 +21,7 @@ const Users = () => {
 
   useEffect(() => {
     fetch();
-  }, [isLoading]);
+  }, []);
 
   const removeBtn = async (userid) => {
     try {

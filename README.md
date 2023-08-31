@@ -1,36 +1,86 @@
-# ZenStore🛍️
+<div id="top">
+<h1 align="center">ZenStore🛍️</h1>
 
-<h3>Description :</h3> 
-This is an online E-commerce website where you can purchase products.
+<div align="center">
+  <br>
+  <img src="https://img.shields.io/github/repo-size/Avinash905/ZenStore?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/Avinash905/ZenStore?style=for-the-badge" />
+    <img src="https://img.shields.io/github/issues-closed-raw/Avinash905/ZenStore?style=for-the-badge" />
+    <img src="https://img.shields.io/github/last-commit/Avinash905/ZenStore?style=for-the-badge" />
+    <img src="https://img.shields.io/github/issues-pr/Avinash905/ZenStore?style=for-the-badge" />
+    <img src="https://img.shields.io/github/issues-pr-closed-raw/Avinash905/ZenStore?style=for-the-badge" />
+    <img src="https://img.shields.io/github/forks/Avinash905/ZenStore?style=for-the-badge" />
+    <img src="https://img.shields.io/github/stars/Avinash905/ZenStore?style=for-the-badge" />
+    <img src="https://img.shields.io/github/contributors-anon/Avinash905/ZenStore?style=for-the-badge" />
+</div>
+<br>
 
-👉[Click here](https://zenstore.onrender.com/) to check out the app.
-<br/>
+<h3>📝 Description :</h3> 
+ZenStore is a calming e-commerce platform designed for seamless shopping. With a user-friendly interface, curated products, and advanced features like efficient data storage and customizable viewing options, it prioritizes convenience and security. Whether you're browsing products or managing the platform, it offers a serene online shopping experience.
 
-<hr/>
+<br>
 
-### 📃Features :
+---
+
+### 🌐 Link:
+
+<h4> Live Site: https://zenstore.onrender.com/ </h4>
+
+<br>
+
+### 🛠️ Tools and technologies used :
+
+<div align=center>
+
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5"/> </a>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3" /> </a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript"/> </a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white&color=148dff" alt="react" /> </a>
+<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Node.js-8A2BE2?style=for-the-badge&logo=Node.js&color=b3ffb0" alt="nodejs" /> </a>
+<a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&color=008712" alt="express"/> </a>
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" /> </a>
+<a href="https://razorpay.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF" alt="razorpay" /> </a>
+
+</div>
+
+<br>
+
+### 👋 Connect with me:
+
+<div align=center>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/dunna-avinash)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Avinash905)
+<a href="mailto:avinash.90527@gmail.com" target="_blank"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/avinashdunna)
+
+</div>
+
+<br>
+
+---
+
+<p align="right"><a href="#top">Back to Top</a></p>
+
+### ✨Features :
 
 <ul>
-<li>Login system</li>
-<li>All the data is stored in the mongodb database</li>
-<li>You can send us your queries from the contact section</li>
-<li>You can view all the products available in stock before puchasing</li>
-<li>You can filter out products based on category, company, colors, price</li>
-<li>You can sort the products based on price and name</li>
-<li>You also can view the products in list or grid view</li>
-<li>There is a detailed page for each product</li>
-<li>There is a Cart system where user can access only if they are logged in</li>
-<li>You can increase or decrease the quantity of each item in the cart</li>
-<li>You can also remove each item from the cart</li>
-<li>You can also remove all items from the cart</li>
-<li>There is also an admin management dashboard</li>
-<li>Admin can view all the registered users</li>
-<li>Admin has the control to remove any user</li>
-<li>Admin can create any item for the store</li>
-<li>Admin can remove any item from the store</li>
+  <li><strong>Login System:</strong> A login system is essential for user authentication and providing personalized experiences.</li>
+  <li><strong>Data Storage in MongoDB:</strong> Using MongoDB for data storage allows for efficient management and retrieval of information.</li>
+  <li><strong>Contact Section for Queries:</strong> A contact section for user queries enhances communication and user support.</li>
+  <li><strong>View Products:</strong> Allowing users to view available products in stock is fundamental for e-commerce platforms.</li>
+  <li><strong>Filtering and Sorting:</strong> Providing filtering options based on category, company, colors, and price, along with sorting options by price and name, enhances user navigation.</li>
+  <li><strong>View Modes (List/Grid):</strong> Offering both list and grid view modes for products provides users with a choice in how they browse.</li>
+  <li><strong>Product Detailed Page:</strong> Detailed pages for each product give users comprehensive information before making a purchase decision.</li>
+  <li><strong>Cart System:</strong> Implementing a cart system is crucial for users to manage their selected items before proceeding to checkout.</li>
+  <li><strong>Quantity Management:</strong> Allowing users to adjust quantities and remove items from the cart gives them control over their purchases.</li>
+  <li><strong>Admin Management Dashboard:</strong> An admin dashboard is essential for managing users, products, and overall platform operations.</li>
+  <li><strong>User Management:</strong> Allowing admins to view registered users and remove users when necessary helps maintain the platform's integrity.</li>
+  <li><strong>Product Management:</strong> Giving admins the ability to add and remove products ensures the accuracy of the available inventory.</li>
 </ul>
 
 <hr/>
+<p align="right"><a href="#top">Back to Top</a></p>
 
 ### Sign Up page
 
@@ -80,19 +130,14 @@ This is an online E-commerce website where you can purchase products.
 
 <img src="./client/src/assets/images/newitem.png" alt="createproduct"/>
 
-<hr/>
-
-### Tools and technologies used :
-
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="35" height="35"/> </a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="35" height="35"/> </a>
 <br/>
 
-<hr/>
+---
 
-### Connect with me :
+<h3 align="center"> Give it a 🌟 if you 🧡 this repository </h3>
 
-<a href="https://twitter.com/avinashdunna" target="blank"><img align="center" src="https://img.icons8.com/color/48/000000/linkedin.png" alt="Avinash905 | LinkedIn" height="35" width="35" /></a>
-<a href="https://twitter.com/avinashdunna" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="avinashdunna" height="30" width="40" /></a>
+---
+
+<p align="right"><a href="#top">Back to Top</a></p>
+
+</div>
